@@ -1,0 +1,20 @@
+Vectors are sequence containers that have dynamic size. just like arrays 
+elements here are stored sequentially so that they can be accessed or traversed
+by iterators.To traverse a vector we need a starting and ending position which 
+can be done by begin() and end() respectively.
+
+Some of the member functions of vectors are:
+
+1.at(position) : returns the reference to the element at the given position
+2.back()       : returns reference to last element
+3.begin()      : returns the iterator pointing to first element
+4.end()        : returns iterator pointing to element preceding last element
+5.clear()      : deletes all the element of vector and returns empty vector
+6.empty()      : returns bool true if vector is empty else false
+7.erase()      : deletes a single or range of element
+8.front()      : returns reference to the front element
+9.insert()     : insert element at a given position
+10.pop_back()  : removes element from the end
+11.push_back()   : insert element at the end
+12.resize()    : resize element to new length
+13.size()      : returns size of vector
